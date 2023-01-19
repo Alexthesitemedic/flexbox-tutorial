@@ -27,6 +27,12 @@
     margin-left: 20px;
 }
 
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
 .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
@@ -40,4 +46,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.photo-grid-item {
+    width: 300px;
+    height: 300px;
+}
+
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
 }
